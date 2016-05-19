@@ -1,4 +1,4 @@
-# Base36 [![Version](https://img.shields.io/hexpm/v/base36.svg?style=flat-square)](https://hex.pm/packages/base36)[![License](https://img.shields.io/hexpm/l/base36.svg?style=flat-square)](https://github.com/nscyclone/base36/blob/master/LICENSE)
+# Base36 [![Version](https://img.shields.io/hexpm/v/base36.svg?style=flat-square)](https://hex.pm/packages/base36)[![Build Status](https://travis-ci.org/nscyclone/base36.svg?branch=master)](https://travis-ci.org/nscyclone/base36)[![License](https://img.shields.io/hexpm/l/base36.svg?style=flat-square)](https://github.com/nscyclone/base36/blob/master/LICENSE)
 
 Base36 encoder/decoder in Elixir. Based on [custom base](https://github.com/igas/custom_base).
 
