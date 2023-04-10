@@ -9,14 +9,14 @@ defmodule Base36.Mixfile do
      version: @version,
      elixir: "~> 1.0",
      name: "Base36",
-     description: description,
-     package: package,
+     description: description(),
+     package: package(),
      source_url: @github,
      docs: [extras: ["README.md"],
             main: "README",
             source_ref: "v#{@version}",
             source_url: @github],
-     deps: deps]
+     deps: deps()]
   end
 
   def application, do: []
