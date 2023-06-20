@@ -1,7 +1,7 @@
 defmodule Base36.Mixfile do
   use Mix.Project
 
-  @version "1.0.0"
+  @version "1.0.1"
   @github "https://github.com/nscyclone/base36"
 
   def project do
@@ -22,9 +22,9 @@ defmodule Base36.Mixfile do
   def application, do: []
 
   defp deps do
-    [{:custom_base, "~> 0.2.0"},
-     {:ex_doc, "~> 0.11", only: :dev},
-     {:earmark, "~> 0.2", only: :dev}]
+    [{:custom_base, "~> 0.2.1"},
+     {:ex_doc, "~> 0.29", only: :dev},
+     {:earmark, "~> 1.4", only: :dev}]
   end
 
   defp description do
