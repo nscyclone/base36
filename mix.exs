@@ -1,7 +1,7 @@
 defmodule Base36.Mixfile do
   use Mix.Project
 
-  @version "1.0.1"
+  @version "1.0.2"
   @github "https://github.com/nscyclone/base36"
 
   def project do
