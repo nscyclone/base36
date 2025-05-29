@@ -1,5 +1,5 @@
 defmodule Base36 do
-  use CustomBase, '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  use CustomBase, ~c"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   @moduledoc """
   This module provides data encoding and decoding functions for base36 alphabet:
 
